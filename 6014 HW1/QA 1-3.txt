@@ -1,0 +1,7 @@
+1. 11.0+10+2.8+3.0+5.5/5=6.46ms,
+We know that the average TB-TA time of a 500-byte packet is (10 + 2.8 + 2.4 + 4 + 5.5) / 5 = 4.94 ms, while the average TB-TA time of a 1000-byte packet is (11.0 + 10 + 2.8 + 3.0 + 5.5)/5 = 6.46 ms. So the transmission delay of a 600-byte packet should be about 1.2 times the delay of a 500-byte packet (because 600/500 = 1.2), which will be slightly lower than 0.6 times the delay of a 1000-byte packet (because 600/1000 = 0.6 ). So we can estimate that the transmission delay of a 600-byte packet is approximately: 4.94. 4.94×1.2+6.46×0.6/2=4.902ms. A reasonable estimate of the transmission and propagation delays that a 600-byte packet will experience is 4.902ms
+
+2.Network congestion: If a specific router or link experiences higher traffic, it may cause increased packet latency. Network congestion is usually due to large data transfers or many users using network resources simultaneously.
+Router processing speed: Sometimes, routers process packets slowly, possibly due to hardware limitations or other processes running on the router. Router performance issues or temporary technical glitches may also cause increased latency.
+
+3.The average delay is 10ms, shown in the code

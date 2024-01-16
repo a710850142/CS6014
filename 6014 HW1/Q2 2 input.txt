@@ -1,0 +1,23 @@
+
+通过最多 30 个跃点跟踪
+到 www.wshifen.com [104.193.88.123] 的路由:
+
+  1     4 ms     4 ms     3 ms  10.0.0.1 
+  2    16 ms     6 ms    15 ms  172.28.247.194 
+  3    16 ms    12 ms    14 ms  po-329-393-rur501.saltlakecity.ut.utah.comcast.net [24.153.95.237] 
+  4    15 ms    12 ms    12 ms  po-2-rur502.saltlakecity.ut.utah.comcast.net [24.124.175.154] 
+  5    25 ms    12 ms    13 ms  po-500-xar02.saltlakecity.ut.utah.comcast.net [24.124.175.145] 
+  6    28 ms    11 ms     8 ms  po-2-xar01.saltlakecity.ut.utah.comcast.net [162.151.39.213] 
+  7    29 ms    11 ms    13 ms  be-306-arsc1.saltlakecity.ut.utah.comcast.net [24.124.175.29] 
+  8    34 ms    14 ms    18 ms  be-2-arsc1.sandy.ut.utah.comcast.net [24.124.175.222] 
+  9     *       46 ms    21 ms  be-501-ar01.sandy.ut.utah.comcast.net [24.124.175.226] 
+ 10    42 ms    31 ms    29 ms  be-36741-cs04.sunnyvale.ca.ibone.comcast.net [96.110.41.93] 
+ 11    31 ms    32 ms    27 ms  be-3402-pe02.529bryant.ca.ibone.comcast.net [96.110.41.222] 
+ 12    33 ms    31 ms    30 ms  ix-xe-3-2-6-0.thar1.epao1-paloalto.as6453.net [66.198.127.33] 
+ 13    51 ms    36 ms    40 ms  if-be-77-2.ecore1.epao1-paloalto.as6453.net [216.6.16.6] 
+ 14    47 ms    63 ms    43 ms  if-ae-11-2.tcore2.sv1-santaclara.as6453.net [66.198.127.27] 
+ 15    47 ms    47 ms    98 ms  209.58.86.30 
+ 16   339 ms    39 ms    46 ms  104.193.88.29 
+ 17    59 ms    46 ms    53 ms  104.193.88.123 
+
+跟踪完成。
