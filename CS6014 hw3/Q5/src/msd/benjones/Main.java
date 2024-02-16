@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Network.makeSimpleNetwork(); //use this for testing/debugging
-        //Network.makeProbablisticNetwork(5); //use this for the plotting part
+//        Network.makeSimpleNetwork(); //use this for testing/debugging
+        Network.makeProbablisticNetwork(15); //use this for the plotting part
         Network.dump();
 
         Network.startup();
