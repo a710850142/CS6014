@@ -39,7 +39,7 @@ public class TlsHandshake {
 
         // 3. 计算共享密钥
         byte[] sharedSecret = DiffieHellmanUtil.computeSharedSecret(myDHKeyPair, serverDHPublicKey);
-        // 这里可以对sharedSecret进行进一步处理，例如派生出加密和MAC密钥
+
     }
 
     public void performServerHandshake(Socket socket) throws Exception {
@@ -59,6 +59,6 @@ public class TlsHandshake {
 
         // 3. 计算共享密钥
         byte[] sharedSecret = DiffieHellmanUtil.computeSharedSecret(myDHKeyPair, clientDHPublicKey);
-        // 这里可以对sharedSecret进行进一步处理，例如派生出加密和MAC密钥
+
     }
 }
